@@ -1,5 +1,4 @@
 from random import randint as rd
-import numpy as np
 
 def randomQuadratic(n):
     q = [[0 for _ in range(n)] for _ in range(n)]
@@ -74,7 +73,6 @@ def gaussReduction(q, l=[], v=[]):
                     for j in range(n):
                         q[i][j]-=(q[p][i]*q[s][j]+q[p][j]*q[s][i])/(a/2)
                 return gaussReduction([[q[i][j]for j in range(n)if (j!=p and j!=s)]for i in range(n)if (i!=p and i!=s)],l+c+d,v)
-                
     return l
 
 def renderLatex(q = randomQuadratic(4)):
