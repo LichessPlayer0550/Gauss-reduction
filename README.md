@@ -1,2 +1,2 @@
 # Gauss-reduction
-small tool to compute Gauss reduction of a quadratic form, no numpy no sympy just maths
+Small tool to compute Gauss reduction of a quadratic form, useful to compute signature or rank
