@@ -4,7 +4,7 @@ def GaussReduction(q, k=set()):
     ## computes a decomposition of the quadratic form associated to the matrix q in a sum of independant linear forms ##
     ## example of usage : let q(x,y) = x^2 + 2y^2 - 6xy in dimension 2, here the matrix of q is (1 -3)
     ##                                                                                          (-3 2)
-    ## hence we call GaussReduction([[1,-3],[-3,2]]), giving [(1.0, [1.0, -3.0]), (-7.0, [0, 1.0])]
+    ## hence we call GaussReduction([[1,-3],[-3,2]]), giving ((1.0, [1.0, -3.0]), (-7.0, [0, 1.0]))
     ## this means that q(x,y) = x^2 + 2y^2 - 6xy = (x-3y)^2 - 7y^2
     ##
     n = len(q)
