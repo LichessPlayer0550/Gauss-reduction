@@ -90,7 +90,7 @@ def renderLatex(q = randomQuadratic(4)):
             a+=s+c
             f=0
             if len([x for x in k[0][1] if x!=0])>1:
-                a+=r'\big('
+                a+=r'\left('
             for i in range(len(k[0][1])):
                 if k[0][1][i]!=0:
                     f+=1
@@ -100,7 +100,7 @@ def renderLatex(q = randomQuadratic(4)):
                         s=''
                     a+=s+c+'x_'+str(i)
             if len([x for x in k[0][1] if x!=0])>1:
-                a+=r'\big)'
+                a+=r'\right)'
             a+='^2'
     a=a+'$'
     return print(a)
