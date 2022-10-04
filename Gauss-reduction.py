@@ -4,7 +4,7 @@ def randomQuadratic(n):
     q = [[0 for _ in range(n)] for _ in range(n)]
     for i in range(n):
         for j in range(i,n):
-            q[i][j]=q[j][i]=rd(1,3)
+            q[i][j]=q[j][i]=rd(-9,9)
     return q
 
 def GaussReduction(q, k=set()):
@@ -104,3 +104,5 @@ def renderLatex(q = randomQuadratic(4)):
             a+='^2'
     a=a+'$'
     return print(a)
+
+renderLatex()
