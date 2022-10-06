@@ -42,7 +42,7 @@ def renderLatex(q = randomQuadratic(4)):
             if q[i][j]!=0:
                 f+=1
                 c = floater(2*q[i][j])
-                s=['','+',''][int(2*q[i][j]//abs(2*q[i][j]))]
+                s=['','+','-'][int(2*q[i][j]//abs(2*q[i][j]))]
                 if d==0 and s=='+' and f==1:
                     s=''
                 a+=s+c+'x_'+str(i)+'x_'+str(j)
@@ -72,5 +72,3 @@ def renderLatex(q = randomQuadratic(4)):
             a+='^2'
     a=a+'$'
     return print(a)
-
-renderLatex()
