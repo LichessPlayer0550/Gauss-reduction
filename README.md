@@ -2,4 +2,4 @@
 Small tool to compute Gauss reduction of a quadratic form, useful to compute signature or rank
 
 # $x_0^2+2x_1^2-6x_0x_1=\left(x_0-3x_1\right)^2-7x_1^2$
-$-6x_0^2+4x_1^2-3x_2^2+7x_3^2-5x_4^2-2x_0x_1+8x_0x_2+14x_0x_3-10x_0x_4+12x_1x_2+6x_1x_3-10x_2x_3-16x_2x_4-12x_3x_4=-6\left(x_0+\frac{1}{6}x_1-\frac{2}{3}x_2-\frac{7}{6}x_3+\frac{5}{6}x_4\right)^2+\frac{25}{6}\left(x_1+\frac{14}{11}x_2+\frac{3}{7}x_3+\frac{5}{25}x_4\right)^2-\frac{93}{13}\left(x_2+\frac{16}{43}x_3+\frac{19}{11}x_4\right)^2+\frac{46}{3}\left(x_3-\frac{25}{51}x_4\right)^2+\frac{67}{4}x_4^2$
+$6x_0^2-8x_1^2+7x_2^2-2x_3^2-18x_0x_1-8x_0x_2+12x_0x_3+16x_1x_2+16x_1x_3+16x_2x_3=6\left(x_0-\frac{3}{2}x_1-\frac{2}{3}x_2+x_3\right)^2-\frac{43}{2}\left(x_1-\frac{1}{11}x_2-\frac{11}{14}x_3\right)^2+\frac{9}{2}\left(x_2+\frac{6}{2}x_3\right)^2-\frac{389}{11}x_3^2$
