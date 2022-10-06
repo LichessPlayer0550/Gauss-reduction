@@ -48,7 +48,7 @@ def renderLatex(q = randomQuadratic(4)):
                 a+=s+c+'x_'+str(i)+'x_'+str(j)
     a=a+'='
     d=0
-    for k in list(GaussReduction(q,set())):
+    for k in GaussReduction(q,set()):
         if k[0][0]!=0:
             d+=1
             c=floater(k[0][0])
